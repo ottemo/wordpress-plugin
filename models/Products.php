@@ -9,6 +9,7 @@ class Products
             $products = Api::get('products', 'shop');
         }
         
+        //@TODO need change API to provide images URL for proudct list
         foreach($products as $key => $product){
             $products[$key]['default_image_url'] = Api::$MEDIA_URL . '/media/' . $product['default_image'];
         }

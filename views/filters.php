@@ -1,3 +1,5 @@
+<?php //@TODO Filtering not completed yet ?>
+
 <script type="text/javascript">
 function apply_filters(){
 //    var cat =  document.getElementById('category-active');

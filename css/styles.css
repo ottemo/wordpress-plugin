@@ -21,6 +21,7 @@
     float: left;
 }
 .connection-error{
+    position: absolute;
     font-size: 24px;
     padding: 10px 30px;
     background: yellow;
