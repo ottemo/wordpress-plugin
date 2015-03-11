@@ -1,0 +1,127 @@
+
+/* Site Markup */
+.header {
+    height: 100px;
+    width: 100%;
+    border: 1px dotted gray;
+    float: left;
+}
+.panel {
+    width: 200px;
+    height: auto;
+    min-height: 600px;
+    border: 1px dotted gray;
+    float: left;
+}
+
+.content {
+    width: calc(100% - 210px);
+    font-size: 18px;
+    border: 1px dotted lightgray;
+    float: left;
+}
+.connection-error{
+    font-size: 24px;
+    padding: 10px 30px;
+    background: yellow;
+    width: auto;
+}
+
+/* Category Page */
+.products{
+    min-height: 200px;
+    min-width: 300px;
+    padding: 40px;
+    margin-bottom: 300px;
+}
+.product-thumb{
+    float: left;
+    height: 250px;
+    width: 250px;
+    margin: 20px;
+    border: 1px lightgray solid;
+}
+
+.photos-thumb-image{
+    max-height: 170px;
+    max-width: 270px;
+    margin: 10px auto;
+    display: block;
+}
+.thumb-name, .thumb-price{
+    text-align: center;
+}
+.thumb-price{
+    font-weight: bold;
+}
+.product-filters{
+    width: 100%;
+    height: 100px;
+    border: 1px dotted gray;
+}
+
+
+/* Product Page */
+.product-box{
+    padding: 30px;
+    height: 300px;
+}
+.product-image-box{
+    width: 310px;
+    float: left;
+}
+.product-name{
+    font-weight: bold;
+    font-size: 24px;
+}
+.product-image-big{
+    max-width: 300px;
+    max-height: 300px;
+    float: left;
+}
+.product-image-small{
+    max-width: 50px;
+    max-height: 50px;
+    float: left;
+    border: 1px solid lightgray;
+    padding: 7px;
+    margin: 7px;
+}
+.product-text-block{
+    float: left;
+    width: 600px;
+    height: auto;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+.product-text-block div {
+    padding-top: 20px;
+}
+.product-buy a{
+    color: white;
+    background: lightslategray;
+    padding: 7px 40px;
+    cursor: pointer;
+}
+
+
+/* Categories */
+.category-row{
+    font-size: 24px;
+    border-left: 2px solid lightgray;
+    padding-left: 5px;
+    margin: 5px 0 5px 20px;
+}
+.category-tree{
+
+}
+a#category-active {
+    font-weight: bold;
+    background: grey;
+    color: white;
+}
+/* Filters */
+.filter-block{
+
+}
+.filter-block input {width: 50px;}
